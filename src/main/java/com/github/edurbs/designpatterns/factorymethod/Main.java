@@ -8,8 +8,6 @@ public class Main {
     static void main() {
         MyLogger myLogger = new MyConsoleLogger();
         TaxCalculator taxCalculator = new TaxCalculator(myLogger);
-        taxCalculator.calc(2);
-        taxCalculator.calc(4);
-        taxCalculator.calc(8);
+        taxCalculator.calc(1000);
     }
 }
